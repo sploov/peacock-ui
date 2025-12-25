@@ -4,7 +4,8 @@ import plugin from 'tailwindcss/plugin';
 export default {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./site/**/*.{js,ts,jsx,tsx}",
+    "./docs/**/*.{md,vue,js,ts,jsx,tsx}",
+    "./docs/.vitepress/**/*.{vue,js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {

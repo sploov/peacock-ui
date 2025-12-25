@@ -1,4 +1,5 @@
 export * from './MotionProvider';
+export * from './PeacockProvider';
 export * from './MotionPrimitive';
 export * from './components/PeacockButton';
 export * from './components/FluidCard';
