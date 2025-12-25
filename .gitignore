@@ -2,6 +2,7 @@
 node_modules
 .DS_Store
 dist
+dist-site
 dist-ssr
 *.local
 
@@ -22,3 +23,6 @@ storybook-static
 *.njsproj
 *.sln
 *.sw?
+
+# Build output
+*.tsbuildinfo
