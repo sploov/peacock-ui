@@ -2,6 +2,10 @@
 
 A fast, composable, unstyled command menu for React, powered by `cmdk`.
 
+## Preview
+
+<CommandDemo />
+
 ## Usage
 
 ```tsx

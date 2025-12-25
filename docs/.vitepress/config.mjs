@@ -51,7 +51,9 @@ export default defineConfig({
           { text: 'Command Palette', link: '/components/command' },
           { text: 'Toast', link: '/components/toast' },
           { text: 'Skeleton', link: '/components/skeleton' },
-          { text: 'Code Block', link: '/components/code' }
+          { text: 'Code Block', link: '/components/code' },
+          { text: 'Slider', link: '/components/slider' },
+          { text: 'Avatar', link: '/components/avatar' }
         ]
       }
     ],

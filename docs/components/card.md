@@ -2,6 +2,10 @@
 
 The `FluidCard` is a layout primitive that supports layout animations and expandable content using Framer Motion's `layout` prop.
 
+## Preview
+
+<FluidCardDemo />
+
 ## Usage
 
 ```tsx

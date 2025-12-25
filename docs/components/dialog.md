@@ -2,6 +2,10 @@
 
 A modal dialog that interrupts the user with important content, expecting a response.
 
+## Preview
+
+<DialogDemo />
+
 ## Usage
 
 ```tsx

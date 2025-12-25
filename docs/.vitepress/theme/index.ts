@@ -18,6 +18,14 @@ import {
   PeacockToaster
 } from '../../../src'
 
+import { SwitchDemo } from '../../demos/SwitchDemo'
+import { DialogDemo } from '../../demos/DialogDemo'
+import { CommandDemo } from '../../demos/CommandDemo'
+import { ToastDemo } from '../../demos/ToastDemo'
+import { DockDemo } from '../../demos/DockDemo'
+import { MenuDemo } from '../../demos/MenuDemo'
+import { FluidCardDemo } from '../../demos/FluidCardDemo'
+
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
@@ -34,5 +42,14 @@ export default {
     app.component('PeacockSkeleton', wrapReact(PeacockSkeleton))
     app.component('PeacockCode', wrapReact(PeacockCode))
     app.component('PeacockToaster', wrapReact(PeacockToaster))
+
+    // Demos
+    app.component('SwitchDemo', wrapReact(SwitchDemo))
+    app.component('DialogDemo', wrapReact(DialogDemo))
+    app.component('CommandDemo', wrapReact(CommandDemo))
+    app.component('ToastDemo', wrapReact(ToastDemo))
+    app.component('DockDemo', wrapReact(DockDemo))
+    app.component('MenuDemo', wrapReact(MenuDemo))
+    app.component('FluidCardDemo', wrapReact(FluidCardDemo))
   }
 }

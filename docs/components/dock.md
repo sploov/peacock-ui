@@ -2,6 +2,10 @@
 
 A macOS-style dock with non-linear magnification.
 
+## Preview
+
+<DockDemo />
+
 ## Usage
 
 ```tsx

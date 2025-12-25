@@ -2,6 +2,14 @@
 
 A floating informational box that appears when hovering over an element.
 
+## Preview
+
+<div class="p-12 flex justify-center bg-black/50 rounded-xl border border-white/10 my-4">
+  <PeacockTooltip content="This will spread the plumage">
+    <PeacockButton>Hover Me</PeacockButton>
+  </PeacockTooltip>
+</div>
+
 ## Usage
 
 ```tsx

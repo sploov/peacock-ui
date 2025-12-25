@@ -2,6 +2,14 @@
 
 A styled container for displaying code snippets or terminal output.
 
+## Preview
+
+<div class="p-8 bg-black/50 rounded-xl border border-white/10 my-4">
+  <PeacockCode>
+    npm install @peacock-ui/core
+  </PeacockCode>
+</div>
+
 ## Usage
 
 ```tsx

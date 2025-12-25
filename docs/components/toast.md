@@ -2,6 +2,10 @@
 
 An opinionated toast component for React, powered by `sonner`.
 
+## Preview
+
+<ToastDemo />
+
 ## Usage
 
 1. Add the `<PeacockToaster />` to your app root.
