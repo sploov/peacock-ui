@@ -1,26 +1,26 @@
-# 🦚 Peacock UI
+# 🦚 Peacock UI v3 (Quantum)
 
-**Fluidity over Staticity.** A high-fidelity, motion-first design system for React 19 and Tailwind CSS 4.
+**Fluidity over Staticity.** A high-fidelity, WebGL-accelerated design system for React 19.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React 19](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev/)
 [![Framer Motion](https://img.shields.io/badge/Motion-Framer-black.svg)](https://www.framer.com/motion/)
+[![WebGL](https://img.shields.io/badge/Engine-Quantum--WebGL-5865F2.svg)](https://threejs.org/)
 
-Peacock UI is not just a component library; it's an aesthetic framework designed to bridge the gap between static interfaces and immersive interactive experiences. Inspired by the sleek, high-end aesthetics of Discord and Linear.
+Peacock UI v3 introduces the **Quantum Engine**—a hybrid rendering architecture that bridges standard React DOM components with a WebGL acceleration layer. Designed for developers who demand Discord-grade aesthetics and sub-millisecond interaction physics.
 
 ## ✨ Features
 
-- **🚀 React 19 Ready**: Built with the latest React features and optimizations.
-- **🎨 Plumage Engine**: Dynamic Tailwind plugin for advanced glassmorphism and multi-layered gradients.
-- **⚡ Physics-Based Motion**: Every component inherits spring physics (stiffness, damping, mass) for a natural feel.
-- **🛡️ Type-Safe**: 100% TypeScript with strict prop definitions.
-- **♿ Accessible**: Built with Radix UI primitives for WAI-ARIA compliance.
-- **🌓 Dark Mode First**: Optimized for deep charcoal and neon-accented aesthetics.
+- **⚛️ Quantum Engine**: Integrated `@react-three/fiber` layer for fluid background shaders and 3D holographic effects.
+- **🎨 Plumage Engine v2**: Enhanced Tailwind plugin with deep glassmorphism (`plumage-glass-heavy`) and noise textures.
+- **🚀 React 19 Native**: Optimized for the latest React concurrency features and compiler.
+- **⚡ Physics-Based Motion**: Mass, stiffness, and damping are first-class citizens in every component.
+- **🌓 Dark Mode First**: A deep charcoal and neon-accented aesthetic inspired by high-end gaming platforms.
 
 ## 📦 Installation
 
 ```bash
-npm install @peacock-ui/core framer-motion tailwindcss lucide-react
+npm install @peacock-ui/core framer-motion three @react-three/fiber @react-three/drei lucide-react
 ```
 
 ## 🚀 Quick Start
@@ -29,54 +29,56 @@ npm install @peacock-ui/core framer-motion tailwindcss lucide-react
 2. **Wrap your App**:
 
 ```tsx
-import { PeacockProvider, PeacockButton } from '@peacock-ui/core';
+import { PeacockProvider, PeacockButton, HolographicCard } from '@peacock-ui/core';
 import '@peacock-ui/core/style.css';
 
 function App() {
   return (
     <PeacockProvider theme="dark">
-      <PeacockButton onClick={() => console.log("Clicked!")}>
-        Spread Plumage
-      </PeacockButton>
+      <div className="p-20">
+        <HolographicCard>
+          <h1 className="text-white text-3xl font-bold">Quantum Interface</h1>
+          <PeacockButton className="mt-4">
+            Initialize Engine
+          </PeacockButton>
+        </HolographicCard>
+      </div>
     </PeacockProvider>
   );
 }
 ```
 
-## 🧱 Component Reference
+## 🧱 Quantum Components
+
+### `HolographicCard`
+A 3D-tilt card that tracks mouse movement with sub-millisecond latency and simulated light reflections.
+```tsx
+<HolographicCard>
+  {/* Your Content */}
+</HolographicCard>
+```
+
+### `PeacockDock`
+macOS-inspired navigation with non-linear magnification and spring-loaded scaling.
+```tsx
+<PeacockDock items={[{ id: '1', icon: <Home />, label: 'Home' }]} />
+```
+
+### `PeacockCommand`
+A high-fidelity command palette (Cmd+K) with integrated glassmorphism.
+```tsx
+<CommandDialog open={isOpen} onOpenChange={setIsOpen}>
+  <CommandInput placeholder="Search commands..." />
+  {/* ... items */}
+</CommandDialog>
+```
 
 ### `PeacockButton`
-Interactive light-source button with physics-based haptics.
+Interactive light-source button with follow-mouse radial gradients and physics-based haptics.
 ```tsx
-<PeacockButton variant="primary" glowSize={200}>
+<PeacockButton variant="primary" glowSize={150}>
   Spread Plumage
 </PeacockButton>
-```
-**Props:** `variant` ('primary'|'outline'|'glass'), `glowSize` (number)
-
-### `PeacockInput`
-Focus-reactive input with dynamic glow borders.
-```tsx
-<PeacockInput label="Email" placeholder="you@example.com" error="Required" />
-```
-**Props:** `label` (string), `error` (string), `icon` (ReactNode)
-
-### `FluidCard`
-Expandable surface with shared-element layout transitions.
-```tsx
-<FluidCard title="Physics" description="Hover for details" expandedContent={<p>Details...</p>} />
-```
-
-### `PeacockSwitch`
-Spring-loaded toggle interaction.
-```tsx
-<PeacockSwitch checked={true} onChange={(val) => {}} label="Motion Enabled" />
-```
-
-### `GlassMenu`
-Command-palette style recursive menu.
-```tsx
-<GlassMenu isOpen={isOpen} onClose={close} items={[{ id: '1', label: 'Home' }]} />
 ```
 
 ## 🛠️ Development
