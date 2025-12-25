@@ -4,7 +4,8 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/peacock-ui/', // Correct for https://sploov.github.io/peacock-ui/
+  base: '/', // Correct for custom domains like peacockui.sploov.xyz
+  publicDir: 'site/public',
   build: {
     outDir: 'dist-site',
     rollupOptions: {
