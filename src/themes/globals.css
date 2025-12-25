@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --peacock-primary: 88 101 242;
+    --peacock-success: 35 165 89;
+    --peacock-danger: 244 63 94;
+  }
+
+  .dark {
+    --background: 232 11% 4%;
+    --foreground: 210 40% 98%;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+}
