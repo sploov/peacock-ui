@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures assets are relative for GitHub Pages
+  base: '/peacock-ui/', // Correct for https://sploov.github.io/peacock-ui/
   build: {
     outDir: 'dist-site',
     rollupOptions: {
