@@ -4,11 +4,7 @@ The `PeacockButton` is the primary action primitive, featuring a follow-mouse ra
 
 ## Preview
 
-<div class="p-8 flex items-center justify-center bg-black/50 rounded-xl border border-white/10 my-4">
-  <PeacockButton variant="primary">
-    Hover Me
-  </PeacockButton>
-</div>
+<ButtonDemo />
 
 ## Usage
 

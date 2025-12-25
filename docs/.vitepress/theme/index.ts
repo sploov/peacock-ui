@@ -25,6 +25,15 @@ import { ToastDemo } from '../../demos/ToastDemo'
 import { DockDemo } from '../../demos/DockDemo'
 import { MenuDemo } from '../../demos/MenuDemo'
 import { FluidCardDemo } from '../../demos/FluidCardDemo'
+import { SliderDemo } from '../../demos/SliderDemo'
+import { AvatarDemo } from '../../demos/AvatarDemo'
+import { HolographicCardDemo } from '../../demos/HolographicCardDemo'
+import { ButtonDemo } from '../../demos/ButtonDemo'
+import { BadgeDemo } from '../../demos/BadgeDemo'
+import { TooltipDemo } from '../../demos/TooltipDemo'
+import { InputDemo } from '../../demos/InputDemo'
+import { SkeletonDemo } from '../../demos/SkeletonDemo'
+import { CodeDemo } from '../../demos/CodeDemo'
 
 export default {
   extends: DefaultTheme,
@@ -51,5 +60,14 @@ export default {
     app.component('DockDemo', wrapReact(DockDemo))
     app.component('MenuDemo', wrapReact(MenuDemo))
     app.component('FluidCardDemo', wrapReact(FluidCardDemo))
+    app.component('SliderDemo', wrapReact(SliderDemo))
+    app.component('AvatarDemo', wrapReact(AvatarDemo))
+    app.component('HolographicCardDemo', wrapReact(HolographicCardDemo))
+    app.component('ButtonDemo', wrapReact(ButtonDemo))
+    app.component('BadgeDemo', wrapReact(BadgeDemo))
+    app.component('TooltipDemo', wrapReact(TooltipDemo))
+    app.component('InputDemo', wrapReact(InputDemo))
+    app.component('SkeletonDemo', wrapReact(SkeletonDemo))
+    app.component('CodeDemo', wrapReact(CodeDemo))
   }
 }

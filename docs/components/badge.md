@@ -4,12 +4,7 @@ The `PeacockBadge` is used to highlight small bits of information like status or
 
 ## Preview
 
-<div class="p-8 flex gap-4 justify-center bg-black/50 rounded-xl border border-white/10 my-4">
-  <PeacockBadge variant="primary">Stable</PeacockBadge>
-  <PeacockBadge variant="success">Active</PeacockBadge>
-  <PeacockBadge variant="danger">Error</PeacockBadge>
-  <PeacockBadge variant="glass">Beta</PeacockBadge>
-</div>
+<BadgeDemo />
 
 ## Usage
 
