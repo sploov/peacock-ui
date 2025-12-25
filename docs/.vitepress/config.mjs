@@ -1,7 +1,11 @@
 import { defineConfig } from 'vitepress'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   title: "Peacock UI",
+  vite: {
+    plugins: [react()]
+  },
   description: "A high-fidelity, motion-first design system for React 19.",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]

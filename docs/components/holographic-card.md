@@ -2,6 +2,14 @@
 
 A 3D-tilt enabled card that tracks mouse movement to create a realistic holographic effect. Part of the **Quantum Engine**.
 
+## Preview
+
+<div class="p-20 flex items-center justify-center bg-black/50 rounded-xl border border-white/10 my-4 perspective-1000">
+  <HolographicCard className="w-64 h-40 flex items-center justify-center">
+    <span class="text-2xl font-bold text-white">Quantum</span>
+  </HolographicCard>
+</div>
+
 ## Usage
 
 ```tsx
