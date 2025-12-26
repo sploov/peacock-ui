@@ -15,7 +15,23 @@ import {
   PeacockAvatar,
   PeacockSkeleton,
   PeacockCode,
-  PeacockToaster
+  PeacockToaster,
+  PeacockCheckbox,
+  PeacockRadioGroup,
+  PeacockSelect,
+  PeacockTextarea,
+  PeacockPopover,
+  PeacockProgress,
+  PeacockScrollArea,
+  PeacockSeparator,
+  PeacockAlertDialog,
+  PeacockContextMenu,
+  PeacockHoverCard,
+  PeacockMenubar,
+  PeacockLabel,
+  PeacockToggle,
+  PeacockSheet,
+  PeacockTable
 } from '../../../src'
 
 import { SwitchDemo } from '../../demos/SwitchDemo'
@@ -41,6 +57,23 @@ import { ThemeDemo } from '../../demos/ThemeDemo'
 import { ComponentPreview } from '../../demos/ComponentPreview'
 import { HeroDemos } from '../../demos/HeroDemos'
 import { Credits } from '../../demos/Credits'
+import { PhysicsDemo } from '../../demos/PhysicsDemo'
+import { CheckboxDemo } from '../../demos/CheckboxDemo'
+import { RadioGroupDemo } from '../../demos/RadioGroupDemo'
+import { SelectDemo } from '../../demos/SelectDemo'
+import { TextareaDemo } from '../../demos/TextareaDemo'
+import { PopoverDemo } from '../../demos/PopoverDemo'
+import { ProgressDemo } from '../../demos/ProgressDemo'
+import { ScrollAreaDemo } from '../../demos/ScrollAreaDemo'
+import { SeparatorDemo } from '../../demos/SeparatorDemo'
+import { AlertDialogDemo } from '../../demos/AlertDialogDemo'
+import { ContextMenuDemo } from '../../demos/ContextMenuDemo'
+import { HoverCardDemo } from '../../demos/HoverCardDemo'
+import { MenubarDemo } from '../../demos/MenubarDemo'
+import { LabelDemo } from '../../demos/LabelDemo'
+import { ToggleDemo } from '../../demos/ToggleDemo'
+import { SheetDemo } from '../../demos/SheetDemo'
+import { TableDemo } from '../../demos/TableDemo'
 
 export default {
   extends: DefaultTheme,
@@ -58,6 +91,22 @@ export default {
     app.component('PeacockSkeleton', wrapReact(PeacockSkeleton))
     app.component('PeacockCode', wrapReact(PeacockCode))
     app.component('PeacockToaster', wrapReact(PeacockToaster))
+    app.component('PeacockCheckbox', wrapReact(PeacockCheckbox))
+    app.component('PeacockRadioGroup', wrapReact(PeacockRadioGroup))
+    app.component('PeacockSelect', wrapReact(PeacockSelect))
+    app.component('PeacockTextarea', wrapReact(PeacockTextarea))
+    app.component('PeacockPopover', wrapReact(PeacockPopover))
+    app.component('PeacockProgress', wrapReact(PeacockProgress))
+    app.component('PeacockScrollArea', wrapReact(PeacockScrollArea))
+    app.component('PeacockSeparator', wrapReact(PeacockSeparator))
+    app.component('PeacockAlertDialog', wrapReact(PeacockAlertDialog))
+    app.component('PeacockContextMenu', wrapReact(PeacockContextMenu))
+    app.component('PeacockHoverCard', wrapReact(PeacockHoverCard))
+    app.component('PeacockMenubar', wrapReact(PeacockMenubar))
+    app.component('PeacockLabel', wrapReact(PeacockLabel))
+    app.component('PeacockToggle', wrapReact(PeacockToggle))
+    app.component('PeacockSheet', wrapReact(PeacockSheet))
+    app.component('PeacockTable', wrapReact(PeacockTable))
 
     // Demos
     app.component('SwitchDemo', wrapReact(SwitchDemo))
@@ -83,5 +132,22 @@ export default {
     app.component('ComponentPreview', wrapReact(ComponentPreview))
     app.component('HeroDemos', wrapReact(HeroDemos))
     app.component('Credits', wrapReact(Credits))
+    app.component('PhysicsDemo', wrapReact(PhysicsDemo))
+    app.component('CheckboxDemo', wrapReact(CheckboxDemo))
+    app.component('RadioGroupDemo', wrapReact(RadioGroupDemo))
+    app.component('SelectDemo', wrapReact(SelectDemo))
+    app.component('TextareaDemo', wrapReact(TextareaDemo))
+    app.component('PopoverDemo', wrapReact(PopoverDemo))
+    app.component('ProgressDemo', wrapReact(ProgressDemo))
+    app.component('ScrollAreaDemo', wrapReact(ScrollAreaDemo))
+    app.component('SeparatorDemo', wrapReact(SeparatorDemo))
+    app.component('AlertDialogDemo', wrapReact(AlertDialogDemo))
+    app.component('ContextMenuDemo', wrapReact(ContextMenuDemo))
+    app.component('HoverCardDemo', wrapReact(HoverCardDemo))
+    app.component('MenubarDemo', wrapReact(MenubarDemo))
+    app.component('LabelDemo', wrapReact(LabelDemo))
+    app.component('ToggleDemo', wrapReact(ToggleDemo))
+    app.component('SheetDemo', wrapReact(SheetDemo))
+    app.component('TableDemo', wrapReact(TableDemo))
   }
 }

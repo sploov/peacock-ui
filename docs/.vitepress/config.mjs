@@ -15,7 +15,7 @@ export default defineConfig({
     nav: [
       { text: 'Guide', link: '/guide/introduction' },
       { text: 'Components', link: '/components/button' },
-      { text: 'v3.0.0-alpha.4', items: [
+      { text: 'v3.0.0', items: [
         { text: 'Changelog', link: '/guide/changelog' },
         { text: 'Contributing', link: 'https://github.com/sploov/peacock-ui/blob/main/CONTRIBUTING.md' }
       ]}
@@ -35,7 +35,8 @@ export default defineConfig({
         text: 'Quantum Components',
         items: [
           { text: 'Holographic Card', link: '/components/holographic-card' },
-          { text: 'Dock', link: '/components/dock' }
+          { text: 'Dock', link: '/components/dock' },
+          { text: 'Physics', link: '/components/physics' }
         ]
       },
       {
@@ -44,20 +45,36 @@ export default defineConfig({
           { text: 'Button', link: '/components/button' },
           { text: 'Tabs', link: '/components/tabs' },
           { text: 'Accordion', link: '/components/accordion' },
-          { text: 'Dropdown Menu', link: '/components/dropdown-menu' },
           { text: 'Input', link: '/components/input' },
+          { text: 'Checkbox', link: '/components/checkbox' },
+          { text: 'Radio Group', link: '/components/radio-group' },
+          { text: 'Select', link: '/components/select' },
+          { text: 'Textarea', link: '/components/textarea' },
           { text: 'Switch', link: '/components/switch' },
-          { text: 'Fluid Card', link: '/components/card' },
-          { text: 'Glass Menu', link: '/components/menu' },
-          { text: 'Badge', link: '/components/badge' },
-          { text: 'Tooltip', link: '/components/tooltip' },
+          { text: 'Slider', link: '/components/slider' },
+          { text: 'Dropdown Menu', link: '/components/dropdown-menu' },
+          { text: 'Popover', link: '/components/popover' },
           { text: 'Dialog', link: '/components/dialog' },
           { text: 'Command Palette', link: '/components/command' },
           { text: 'Toast', link: '/components/toast' },
+          { text: 'Progress', link: '/components/progress' },
+          { text: 'Fluid Card', link: '/components/card' },
+          { text: 'Glass Menu', link: '/components/menu' },
+          { text: 'Badge', link: '/components/badge' },
+          { text: 'Avatar', link: '/components/avatar' },
           { text: 'Skeleton', link: '/components/skeleton' },
-          { text: 'Code Block', link: '/components/code' },
-          { text: 'Slider', link: '/components/slider' },
-          { text: 'Avatar', link: '/components/avatar' }
+          { text: 'Scroll Area', link: '/components/scroll-area' },
+          { text: 'Separator', link: '/components/separator' },
+          { text: 'Sheet', link: '/components/sheet' },
+          { text: 'Table', link: '/components/table' },
+          { text: 'Toggle', link: '/components/toggle' },
+          { text: 'Label', link: '/components/label' },
+          { text: 'Hover Card', link: '/components/hover-card' },
+          { text: 'Alert Dialog', link: '/components/alert-dialog' },
+          { text: 'Context Menu', link: '/components/context-menu' },
+          { text: 'Menubar', link: '/components/menubar' },
+          { text: 'Tooltip', link: '/components/tooltip' },
+          { text: 'Code Block', link: '/components/code' }
         ]
       }
     ],
