@@ -6,9 +6,9 @@ A fluid, accessible tabs component with physics-based indicator movement.
 import { TabsDemo } from '../demos/TabsDemo'
 </script>
 
-<div className="vp-raw">
+<ComponentPreview>
   <TabsDemo />
-</div>
+</ComponentPreview>
 
 ## Usage
 

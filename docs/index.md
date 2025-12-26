@@ -31,6 +31,8 @@ features:
     icon: 🌊
 ---
 
+<HeroDemos />
+
 <style>
 /* Landing Page Specific Overrides */
 .VPHomeHero .name {

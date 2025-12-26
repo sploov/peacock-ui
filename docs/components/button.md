@@ -4,7 +4,9 @@ The `PeacockButton` is the primary action primitive, featuring a follow-mouse ra
 
 ## Preview
 
-<ButtonDemo />
+<ComponentPreview>
+  <ButtonDemo />
+</ComponentPreview>
 
 ## Usage
 

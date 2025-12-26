@@ -34,6 +34,9 @@ import { TooltipDemo } from '../../demos/TooltipDemo'
 import { InputDemo } from '../../demos/InputDemo'
 import { SkeletonDemo } from '../../demos/SkeletonDemo'
 import { CodeDemo } from '../../demos/CodeDemo'
+import { TabsDemo } from '../../demos/TabsDemo'
+import { ComponentPreview } from '../../demos/ComponentPreview'
+import { HeroDemos } from '../../demos/HeroDemos'
 
 export default {
   extends: DefaultTheme,
@@ -69,5 +72,8 @@ export default {
     app.component('InputDemo', wrapReact(InputDemo))
     app.component('SkeletonDemo', wrapReact(SkeletonDemo))
     app.component('CodeDemo', wrapReact(CodeDemo))
+    app.component('TabsDemo', wrapReact(TabsDemo))
+    app.component('ComponentPreview', wrapReact(ComponentPreview))
+    app.component('HeroDemos', wrapReact(HeroDemos))
   }
 }

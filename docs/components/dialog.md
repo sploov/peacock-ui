@@ -4,7 +4,9 @@ A modal dialog that interrupts the user with important content, expecting a resp
 
 ## Preview
 
-<DialogDemo />
+<ComponentPreview>
+  <DialogDemo />
+</ComponentPreview>
 
 ## Usage
 

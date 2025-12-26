@@ -4,7 +4,9 @@ Use to show a placeholder while content is loading.
 
 ## Preview
 
-<SkeletonDemo />
+<ComponentPreview>
+  <SkeletonDemo />
+</ComponentPreview>
 
 ## Usage
 

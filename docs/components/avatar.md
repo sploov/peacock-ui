@@ -4,7 +4,9 @@ Status-aware avatars with dynamic presence glows.
 
 ## Preview
 
-<AvatarDemo />
+<ComponentPreview>
+  <AvatarDemo />
+</ComponentPreview>
 
 ## Usage
 

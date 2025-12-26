@@ -4,7 +4,9 @@ A styled container for displaying code snippets or terminal output.
 
 ## Preview
 
-<CodeDemo />
+<ComponentPreview>
+  <CodeDemo />
+</ComponentPreview>
 
 ## Usage
 

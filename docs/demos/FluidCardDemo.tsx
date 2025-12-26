@@ -3,7 +3,7 @@ import { FluidCard } from '../../src';
 
 export const FluidCardDemo = () => {
   return (
-    <div className="flex items-center justify-center p-8 border border-white/10 rounded-xl bg-black/50">
+    <div className="flex items-center justify-center w-full max-w-sm">
       <FluidCard
         title="Architecture"
         description="Deep dive into our motion system. Click to expand."

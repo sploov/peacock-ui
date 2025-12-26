@@ -3,7 +3,7 @@ import { PeacockAvatar, PeacockAvatarImage, PeacockAvatarFallback } from '../../
 
 export const AvatarDemo = () => {
   return (
-    <div className="p-8 flex gap-4 justify-center bg-black/50 rounded-xl border border-white/10 my-4">
+    <div className="flex gap-8 justify-center items-center">
       <PeacockAvatar status="online">
         <PeacockAvatarImage src="https://github.com/sploov.png" />
         <PeacockAvatarFallback>SP</PeacockAvatarFallback>
@@ -14,7 +14,7 @@ export const AvatarDemo = () => {
       </PeacockAvatar>
       
       <PeacockAvatar status="offline">
-        <PeacockAvatarFallback>Guest</PeacockAvatarFallback>
+        <PeacockAvatarFallback>GU</PeacockAvatarFallback>
       </PeacockAvatar>
     </div>
   );

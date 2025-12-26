@@ -12,7 +12,7 @@ import {
 
 export const DialogDemo = () => {
   return (
-    <div className="flex items-center justify-center p-8 border border-white/10 rounded-xl bg-black/50">
+    <div className="flex items-center justify-center">
       <Dialog>
         <DialogTrigger asChild>
           <PeacockButton>Open Dialog</PeacockButton>

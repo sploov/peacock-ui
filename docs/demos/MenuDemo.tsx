@@ -12,7 +12,7 @@ export const MenuDemo = () => {
   ];
 
   return (
-    <div className="h-64 flex items-center justify-center border border-white/10 rounded-xl bg-black/50 relative overflow-hidden">
+    <div className="h-64 flex items-center justify-center relative overflow-hidden">
       <div className="absolute top-8">
         <PeacockButton onClick={() => setIsOpen(true)}>
           Open Menu

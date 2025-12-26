@@ -3,9 +3,9 @@ import { PeacockTooltip, PeacockButton } from '../../src';
 
 export const TooltipDemo = () => {
   return (
-    <div className="p-12 flex justify-center bg-black/50 rounded-xl border border-white/10 my-4">
-      <PeacockTooltip content="This will spread the plumage">
-        <PeacockButton variant="glass">Hover Me</PeacockButton>
+    <div className="flex items-center justify-center">
+      <PeacockTooltip content="This is a physics-based tooltip">
+        <PeacockButton variant="outline">Hover for Tooltip</PeacockButton>
       </PeacockTooltip>
     </div>
   );
