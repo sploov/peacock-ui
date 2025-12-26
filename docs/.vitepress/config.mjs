@@ -4,7 +4,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   title: "Peacock UI",
   vite: {
-    plugins: [react()]
+    plugins: [react()],
+    resolve: {
+      alias: {
+        '@react-three/cannon': '@react-three/cannon/dist/index.js'
+      }
+    }
   },
   description: "A high-fidelity, motion-first design system for React 19.",
   head: [

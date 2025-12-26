@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2025-12-26
+
+### Added
+- **Stable Release**: Finalized the Quantum Design System for production use.
+- **8 New Components**: `AlertDialog`, `ContextMenu`, `HoverCard`, `Menubar`, `Label`, `Toggle`, `Sheet`, and `Table`.
+- **8 Core Components**: `Checkbox`, `RadioGroup`, `Select`, `Textarea`, `Popover`, `Progress`, `ScrollArea`, `Separator`.
+- **WebGL Physics**: Added `PeacockPhysicsScene` and interactive primitives (`PhysicsPlane`, `InteractiveBox`, `InteractiveSphere`) using `@react-three/cannon`.
+- **Documentation**: New interactive home page and comprehensive component guides.
+
+### Fixed
+- Fixed type conflict between Radix primitives and Framer Motion props in `AlertDialog`.
+- Resolved `@react-three/cannon` resolution issues in VitePress build.
+
 ## [3.0.0-alpha.4] - 2025-12-26
 
 ### Added
