@@ -8,11 +8,10 @@ export function wrapReact(ReactComponent: any) {
     inheritAttrs: false,
     setup(props, { attrs }) {
       const rootEl = ref<HTMLElement | null>(null)
-      let root: Root | null = null
+      let root: any = null
 
       const renderReact = () => {
         if (!rootEl.value) return
-        if (!root) root = createRoot(rootEl.value)
         
         const { class: className, style, ...restAttrs } = attrs
         const combinedProps = { 
@@ -21,11 +20,19 @@ export function wrapReact(ReactComponent: any) {
           className: className || (attrs.class as string),
           style: style || (attrs.style as any)
         }
+
+        if (!root) {
+          root = createRoot(rootEl.value)
+        }
         
         root.render(createElement(ReactComponent, combinedProps))
       }
 
-      onMounted(renderReact)
+      onMounted(() => {
+        // Delay slightly to ensure DOM is ready in all environments
+        setTimeout(renderReact, 0)
+      })
+
       onBeforeUnmount(() => {
         if (root) {
           root.unmount()
@@ -33,9 +40,11 @@ export function wrapReact(ReactComponent: any) {
         }
       })
       
-      watch(() => ({ ...attrs }), renderReact, { deep: true })
+      watch(() => ({ ...attrs }), () => {
+        if (root) renderReact()
+      }, { deep: true })
       
-      return () => h('div', { ref: rootEl })
+      return () => h('div', { ref: rootEl, class: 'react-wrapper-host' })
     }
   })
 }

@@ -44,21 +44,20 @@ export const TabsDemo = () => {
   return (
     <ComponentPreview>
       <div className="flex flex-col gap-12 w-full max-w-2xl">
-        <section className="space-y-4">
-          <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Pill Variant</h3>
-          <PeacockTabs items={items} variant="pill" />
-        </section>
-
-        <section className="space-y-4">
-          <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Glass Variant</h3>
-          <PeacockTabs items={items} variant="glass" />
-        </section>
-
-        <section className="space-y-4">
-          <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Underline Variant</h3>
-          <PeacockTabs items={items} variant="underline" />
-        </section>
-      </div>
+              <section className="space-y-4">
+                <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Pill Variant</h3>
+                <PeacockTabs items={items} variant="pill" layoutId="tabs-pill" />
+              </section>
+        
+              <section className="space-y-4">
+                <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Glass Variant</h3>
+                <PeacockTabs items={items} variant="glass" layoutId="tabs-glass" />
+              </section>
+        
+              <section className="space-y-4">
+                <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Underline Variant</h3>
+                <PeacockTabs items={items} variant="underline" layoutId="tabs-underline" />
+              </section>      </div>
     </ComponentPreview>
   );
 };

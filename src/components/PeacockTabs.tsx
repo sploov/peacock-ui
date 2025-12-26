@@ -17,6 +17,7 @@ export interface PeacockTabsProps {
   onValueChange?: (value: string) => void;
   className?: string;
   variant?: 'pill' | 'underline' | 'glass';
+  layoutId?: string;
 }
 
 export const PeacockTabs = ({
@@ -24,7 +25,8 @@ export const PeacockTabs = ({
   defaultValue,
   onValueChange,
   className,
-  variant = 'pill'
+  variant = 'pill',
+  layoutId = 'active-tab'
 }: PeacockTabsProps) => {
   const [activeTab, setActiveTab] = useState(defaultValue || items[0]?.id);
 
@@ -59,7 +61,7 @@ export const PeacockTabs = ({
               
               {isActive && (
                 <motion.div
-                  layoutId="active-tab"
+                  layoutId={layoutId}
                   className={cn(
                     "absolute inset-0 z-0",
                     variant === 'pill' && "bg-peacock-primary rounded-xl",
