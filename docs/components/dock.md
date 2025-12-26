@@ -4,9 +4,7 @@ A macOS-style dock with non-linear magnification.
 
 ## Preview
 
-<ComponentPreview>
-  <DockDemo />
-</ComponentPreview>
+<DockDemo />
 
 ## Usage
 

@@ -4,9 +4,7 @@
 
 ## Preview
 
-<ComponentPreview>
-  <InputDemo />
-</ComponentPreview>
+<InputDemo />
 
 ## Usage
 

@@ -33,6 +33,65 @@ features:
 
 <HeroDemos />
 
+<div className="max-w-4xl mx-auto px-6 py-24 space-y-24">
+  <section id="about" className="space-y-6">
+    <h2 className="text-3xl font-bold text-white">About Peacock UI</h2>
+    <p className="text-lg text-white/60 leading-relaxed">
+      Peacock UI was born from a desire to make the web more <strong>tangible</strong>. We believe that digital interfaces shouldn't just be flat pixels—they should react with the weight and fluidity of physical objects. 
+    </p>
+    <p className="text-lg text-white/60 leading-relaxed">
+      By combining <strong>React 19</strong>'s concurrency with <strong>Framer Motion</strong>'s physics engine and a custom <strong>WebGL</strong> layer, we've created a system that feels alive.
+    </p>
+  </section>
+
+  <section id="changelog" className="space-y-6">
+    <div className="flex items-center justify-between">
+      <h2 className="text-3xl font-bold text-white">Latest Updates</h2>
+      <a href="/guide/changelog" className="text-peacock-primary hover:underline">View Full Changelog →</a>
+    </div>
+    <div className="grid gap-4">
+      <div className="plumage-glass rounded-2xl p-6 border border-white/5 space-y-2">
+        <div className="flex items-center gap-2">
+          <span className="px-2 py-0.5 rounded-full bg-peacock-primary/20 text-peacock-primary text-xs font-bold">v3.0.0-alpha.2</span>
+          <span className="text-white/40 text-xs">Today</span>
+        </div>
+        <h4 className="text-white font-semibold">The Component Overhaul</h4>
+        <p className="text-sm text-white/60">Added PeacockTabs, updated the Motion Engine documentation, and introduced the new ComponentPreview system.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="credits" className="space-y-6">
+    <h2 className="text-3xl font-bold text-white">Credits & Inspiration</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="space-y-2">
+        <h4 className="text-white font-medium">Core Technologies</h4>
+        <ul className="text-sm text-white/40 space-y-1">
+          <li>React 19 (Meta)</li>
+          <li>Framer Motion (Framer)</li>
+          <li>Three.js / React Three Fiber</li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </div>
+      <div className="space-y-2">
+        <h4 className="text-white font-medium">Design Inspiration</h4>
+        <ul className="text-sm text-white/40 space-y-1">
+          <li>Discord Desktop Client</li>
+          <li>Linear's Glassmorphism</li>
+          <li>Apple's macOS Dock Physics</li>
+          <li>Vercel's Design System</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer className="pt-24 text-center border-t border-white/5">
+    <p className="text-sm text-white/20">
+      Built with ❤️ by Sploov and the community.
+    </p>
+  </footer>
+</div>
+
 <style>
 /* Landing Page Specific Overrides */
 .VPHomeHero .name {

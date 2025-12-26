@@ -4,9 +4,7 @@ The `PeacockBadge` is used to highlight small bits of information like status or
 
 ## Preview
 
-<ComponentPreview>
-  <BadgeDemo />
-</ComponentPreview>
+<BadgeDemo />
 
 ## Usage
 

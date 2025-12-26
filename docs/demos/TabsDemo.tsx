@@ -1,9 +1,11 @@
 import React from 'react';
 import { PeacockTabs, FluidCard } from '../../src';
 import { User, Settings, Bell } from 'lucide-react';
+import { ComponentPreview } from './ComponentPreview';
 
 export const TabsDemo = () => {
   const items = [
+    // ... items
     {
       id: 'profile',
       label: 'Profile',
@@ -41,21 +43,23 @@ export const TabsDemo = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-12 w-full max-w-2xl p-8 border border-white/10 rounded-3xl bg-black/50">
-      <section className="space-y-4">
-        <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Pill Variant</h3>
-        <PeacockTabs items={items} variant="pill" />
-      </section>
+    <ComponentPreview>
+      <div className="flex flex-col gap-12 w-full max-w-2xl">
+        <section className="space-y-4">
+          <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Pill Variant</h3>
+          <PeacockTabs items={items} variant="pill" />
+        </section>
 
-      <section className="space-y-4">
-        <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Glass Variant</h3>
-        <PeacockTabs items={items} variant="glass" />
-      </section>
+        <section className="space-y-4">
+          <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Glass Variant</h3>
+          <PeacockTabs items={items} variant="glass" />
+        </section>
 
-      <section className="space-y-4">
-        <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Underline Variant</h3>
-        <PeacockTabs items={items} variant="underline" />
-      </section>
-    </div>
+        <section className="space-y-4">
+          <h3 className="text-xs font-bold text-peacock-primary uppercase tracking-widest">Underline Variant</h3>
+          <PeacockTabs items={items} variant="underline" />
+        </section>
+      </div>
+    </ComponentPreview>
   );
 };

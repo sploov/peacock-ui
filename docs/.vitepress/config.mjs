@@ -16,7 +16,7 @@ export default defineConfig({
       { text: 'Guide', link: '/guide/introduction' },
       { text: 'Components', link: '/components/button' },
       { text: 'v3.0.0', items: [
-        { text: 'Changelog', link: 'https://github.com/sploov/peacock-ui/releases' },
+        { text: 'Changelog', link: '/guide/changelog' },
         { text: 'Contributing', link: 'https://github.com/sploov/peacock-ui/blob/main/CONTRIBUTING.md' }
       ]}
     ],
@@ -27,7 +27,8 @@ export default defineConfig({
           { text: 'Introduction', link: '/guide/introduction' },
           { text: 'Getting Started', link: '/guide/getting-started' },
           { text: 'Theming', link: '/guide/theming' },
-          { text: 'Motion Engine', link: '/guide/motion' }
+          { text: 'Motion Engine', link: '/guide/motion' },
+          { text: 'Changelog', link: '/guide/changelog' }
         ]
       },
       {
