@@ -2,10 +2,6 @@
 
 Displays the path to the current resource using a hierarchy of links.
 
-<script setup>
-import { BreadcrumbDemo } from '../demos/BreadcrumbDemo'
-</script>
-
 <BreadcrumbDemo />
 
 ## Usage
