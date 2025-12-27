@@ -14,7 +14,7 @@
 
 Peacock UI v3 introduces the **Quantum Engine**—a hybrid rendering architecture that bridges standard React DOM components with a WebGL acceleration layer. Designed for developers who demand Discord-grade aesthetics and sub-millisecond interaction physics.
 
-[**Documentation**](https://manjunathh-xyz.github.io/peacock-ui/) | [**Changelog**](docs/guide/changelog.md) | [**Contributing**](CONTRIBUTING.md)
+[**Documentation**](https://sploov.github.io/peacock-ui/) | [**Changelog**](docs/guide/changelog.md) | [**Contributing**](CONTRIBUTING.md)
 
 ## ✨ Features
 
@@ -81,7 +81,7 @@ An elegant, glass-styled navigation trail for deep application hierarchies.
 
 ```bash
 # Clone the repo
-git clone https://github.com/manjunathh-xyz/peacock-ui
+git clone https://github.com/sploov/peacock-ui
 
 # Install dependencies
 npm install

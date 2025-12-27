@@ -17,13 +17,13 @@
     "tailwind",
     "react-19"
   ],
-  "homepage": "https://manjunathh-xyz.github.io/peacock-ui/",
+  "homepage": "https://sploov.github.io/peacock-ui/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manjunathh-xyz/peacock-ui.git"
+    "url": "git+https://github.com/sploov/peacock-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/manjunathh-xyz/peacock-ui/issues"
+    "url": "https://github.com/sploov/peacock-ui/issues"
   },
   "files": [
     "dist"
