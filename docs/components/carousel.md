@@ -2,10 +2,6 @@
 
 A physics-based, 3D parallax slider component for showcasing featured content.
 
-<script setup>
-import { CarouselDemo } from '../demos/CarouselDemo'
-</script>
-
 <CarouselDemo />
 
 ## Usage

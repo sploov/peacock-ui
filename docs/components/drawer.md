@@ -2,10 +2,6 @@
 
 A glassmorphic side-sheet overlay that slides in from the edge of the screen.
 
-<script setup>
-import { DrawerDemo } from '../demos/DrawerDemo'
-</script>
-
 <DrawerDemo />
 
 ## Usage

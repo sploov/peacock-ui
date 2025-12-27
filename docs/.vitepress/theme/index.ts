@@ -31,7 +31,10 @@ import {
   PeacockLabel,
   PeacockToggle,
   PeacockSheet,
-  PeacockTable
+  PeacockTable,
+  PeacockBreadcrumb,
+  PeacockCarousel,
+  PeacockDrawer
 } from '../../../src'
 
 import { SwitchDemo } from '../../demos/SwitchDemo'
@@ -74,6 +77,9 @@ import { LabelDemo } from '../../demos/LabelDemo'
 import { ToggleDemo } from '../../demos/ToggleDemo'
 import { SheetDemo } from '../../demos/SheetDemo'
 import { TableDemo } from '../../demos/TableDemo'
+import { BreadcrumbDemo } from '../../demos/BreadcrumbDemo'
+import { CarouselDemo } from '../../demos/CarouselDemo'
+import { DrawerDemo } from '../../demos/DrawerDemo'
 
 export default {
   extends: DefaultTheme,
@@ -107,6 +113,9 @@ export default {
     app.component('PeacockToggle', wrapReact(PeacockToggle))
     app.component('PeacockSheet', wrapReact(PeacockSheet))
     app.component('PeacockTable', wrapReact(PeacockTable))
+    app.component('PeacockBreadcrumb', wrapReact(PeacockBreadcrumb))
+    app.component('PeacockCarousel', wrapReact(PeacockCarousel))
+    app.component('PeacockDrawer', wrapReact(PeacockDrawer))
 
     // Demos
     app.component('SwitchDemo', wrapReact(SwitchDemo))
@@ -149,5 +158,8 @@ export default {
     app.component('ToggleDemo', wrapReact(ToggleDemo))
     app.component('SheetDemo', wrapReact(SheetDemo))
     app.component('TableDemo', wrapReact(TableDemo))
+    app.component('BreadcrumbDemo', wrapReact(BreadcrumbDemo))
+    app.component('CarouselDemo', wrapReact(CarouselDemo))
+    app.component('DrawerDemo', wrapReact(DrawerDemo))
   }
 }
