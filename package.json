@@ -1,7 +1,30 @@
 {
   "name": "@peacock-ui/core",
   "version": "3.0.1",
+  "description": "A high-fidelity, motion-first design system for React 19 featuring glassmorphism and WebGL acceleration.",
   "type": "module",
+  "author": "Sploov",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "design-system",
+    "ui-kit",
+    "framer-motion",
+    "threejs",
+    "react-three-fiber",
+    "glassmorphism",
+    "motion-ui",
+    "tailwind",
+    "react-19"
+  ],
+  "homepage": "https://sploov.github.io/peacock-ui/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sploov/peacock-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sploov/peacock-ui/issues"
+  },
   "files": [
     "dist"
   ],
