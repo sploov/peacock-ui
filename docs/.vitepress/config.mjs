@@ -20,7 +20,7 @@ export default defineConfig({
     nav: [
       { text: 'Guide', link: '/guide/introduction' },
       { text: 'Components', link: '/components/button' },
-      { text: 'v3.0.0', items: [
+      { text: 'v3.0.1', items: [
         { text: 'Changelog', link: '/guide/changelog' },
         { text: 'Contributing', link: 'https://github.com/sploov/peacock-ui/blob/main/CONTRIBUTING.md' }
       ]}
@@ -40,6 +40,7 @@ export default defineConfig({
         text: 'Quantum Components',
         items: [
           { text: 'Holographic Card', link: '/components/holographic-card' },
+          { text: 'Carousel 3D', link: '/components/carousel' },
           { text: 'Dock', link: '/components/dock' },
           { text: 'Physics', link: '/components/physics' }
         ]
@@ -48,8 +49,10 @@ export default defineConfig({
         text: 'Components',
         items: [
           { text: 'Button', link: '/components/button' },
+          { text: 'Breadcrumb', link: '/components/breadcrumb' },
           { text: 'Tabs', link: '/components/tabs' },
           { text: 'Accordion', link: '/components/accordion' },
+          { text: 'Drawer', link: '/components/drawer' },
           { text: 'Input', link: '/components/input' },
           { text: 'Checkbox', link: '/components/checkbox' },
           { text: 'Radio Group', link: '/components/radio-group' },

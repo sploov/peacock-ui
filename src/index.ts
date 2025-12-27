@@ -44,5 +44,10 @@ export * from './components/overlay/PeacockAlertDialog';
 export * from './components/overlay/PeacockContextMenu';
 export * from './components/overlay/PeacockHoverCard';
 
+// v3.0.1 Components
+export * from './components/navigation/PeacockBreadcrumb';
+export * from './components/data-display/PeacockCarousel';
+export * from './components/overlay/PeacockDrawer';
+
 export * from './hooks/utils';
 import './themes/globals.css';

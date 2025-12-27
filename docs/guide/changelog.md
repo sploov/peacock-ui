@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2025-12-27
+
+### Added
+- **New Components**:
+  - `PeacockBreadcrumb`: Glass-morphic navigation trail.
+  - `PeacockCarousel`: 3D/Parallax slider with physics-based drag interactions.
+  - `PeacockDrawer`: High-performance side-sheet overlay with drag-to-dismiss.
+- **Deep Glass Theme**: A major revamp to the visual system.
+  - Darkened glass backgrounds (`.plumage-glass-heavy`) for better legibility.
+  - Increased vibrancy of primary colors (`#6366f1` Indigo, `#22c55e` Green).
+  - High-definition, subtler noise textures.
+
+### Changed
+- Refined global CSS variables for higher contrast in dark mode.
+- Improved drag physics configuration for overlays.
+
 ## [3.0.0] - 2025-12-26
 
 ### Added
